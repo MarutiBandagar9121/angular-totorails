@@ -1,0 +1,12 @@
+import { Component, input } from '@angular/core';
+
+@Component({
+  selector: 'app-herosection',
+  standalone: true,
+  imports: [],
+  templateUrl: './herosection.component.html',
+  styleUrl: './herosection.component.scss'
+})
+export class HerosectionComponent {
+  message = input("Default Mesage");
+}

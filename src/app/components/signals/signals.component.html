@@ -1,0 +1,8 @@
+<p>signals works! {{userName()}}</p>
+<h1>{{userName()}}</h1>
+<h6>{{userName()}}</h6>
+
+<button (click)="changeUsername($event)">Click to change username</button>
+<button (click)="updateUsername($event)">Update</button>
+
+<h1>Name in uppercase: {{upperCaseUsernameSignal()}}</h1>
